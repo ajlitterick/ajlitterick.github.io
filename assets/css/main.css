@@ -1748,7 +1748,7 @@ input, select, textarea {
 /* List */
 
 	ul {
-		list-style: disc;
+		list-style: circle;
 		padding-left: 1em;
 	}
 
@@ -1764,6 +1764,13 @@ input, select, textarea {
 		ol li {
 			padding-left: 0.25em;
 		}
+
+/*	mainlist */
+
+	ul.mainlist {
+		list-style-type: circle;
+		text-align: left;
+	}
 
 /* Social */
 
@@ -1829,6 +1836,14 @@ input, select, textarea {
 
 				ul.social li a.fa-twitter {
 					background-color: #2DAAE4;
+				}
+
+				ul.social li a.fa-seedling {
+					background-color: #60845C;
+				}
+
+				ul.social li a.fa-box-open {
+					background-color: #C0241C;
 				}
 
 				ul.social li a.fa-facebook-f {
