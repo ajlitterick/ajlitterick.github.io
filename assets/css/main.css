@@ -1772,6 +1772,10 @@ input, select, textarea {
 		text-align: left;
 	}
 
+	ol.mainlist {
+		text-align: left;
+	}
+
 /* Social */
 
 	ul.social {
