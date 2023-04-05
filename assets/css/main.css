@@ -2419,8 +2419,8 @@ input, select, textarea {
 		/* Nav */
 
 			#nav {
-				height: 44px;
-				line-height: 44px;
+				height: 3.5em;
+				line-height: 3.5em;
 			}
 
 				#nav a {
@@ -2473,4 +2473,15 @@ input, select, textarea {
 						margin-top: 0;
 					}
 
+	}
+
+/* Tiny */
+	@media screen and (max-width: 500px) {
+
+		/* Nav */
+
+			#nav {
+				height: 7em;
+				line-height: 3.5em;
+			}
 	}
