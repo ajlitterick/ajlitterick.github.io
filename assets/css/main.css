@@ -1842,6 +1842,10 @@ input, select, textarea {
 					background-color: #2DAAE4;
 				}
 
+				ul.social li a.fa-stack-exchange {
+					background-color: #F38931;
+				}				
+
 				ul.social li a.fa-seedling {
 					background-color: #60845C;
 				}
