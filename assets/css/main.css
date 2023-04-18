@@ -1830,8 +1830,12 @@ input, select, textarea {
 					width: 48px;
 				}
 
+				ul.social li a.fa-envelope {
+					background-color: #F8E4D4;
+				}
+
 				ul.social li a.fa-graduation-cap {
-					background-color: #CCCCCC;
+					background-color: #AAAAAA;
 				}
 
 				ul.social li a.fa-orcid {
