@@ -91,7 +91,6 @@ input, select, textarea {
 			-webkit-animation: none !important;
 			-ms-animation: none !important;
 			animation: none !important;
-			-moz-transition: none !important;
 			-webkit-transition: none !important;
 			-ms-transition: none !important;
 			transition: none !important;
@@ -106,7 +105,6 @@ input, select, textarea {
 	}
 
 	a {
-		-moz-transition: color .2s ease-in-out;
 		-webkit-transition: color .2s ease-in-out;
 		-ms-transition: color .2s ease-in-out;
 		transition: color .2s ease-in-out;
@@ -1519,7 +1517,6 @@ input, select, textarea {
 	form input[type=password],
 	form select,
 	form textarea {
-		-moz-transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
 		-webkit-transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
 		-ms-transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
 		transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
@@ -1562,10 +1559,6 @@ input, select, textarea {
 	}
 
 	form ::-moz-placeholder {
-		color: #555 !important;
-	}
-
-	form :-ms-input-placeholder {
 		color: #555 !important;
 	}
 
@@ -1669,7 +1662,6 @@ input, select, textarea {
 		background-image: url("images/bg.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
 		background-image: url("images/bg.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
 		background-image: url("images/bg.png"), linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-		-moz-transition: background-color .2s ease-in-out;
 		-webkit-transition: background-color .2s ease-in-out;
 		-ms-transition: background-color .2s ease-in-out;
 		transition: background-color .2s ease-in-out;
@@ -1794,7 +1786,6 @@ input, select, textarea {
 		}
 
 			ul.social li a {
-				-moz-transition: top .2s ease-in-out;
 				-webkit-transition: top .2s ease-in-out;
 				-ms-transition: top .2s ease-in-out;
 				transition: top .2s ease-in-out;
@@ -1811,7 +1802,6 @@ input, select, textarea {
 					background-image: url("images/bg.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
 					background-image: url("images/bg.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
 					background-image: url("images/bg.png"), linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-					-moz-transition: background-color .2s ease-in-out;
 					-webkit-transition: background-color .2s ease-in-out;
 					-ms-transition: background-color .2s ease-in-out;
 					transition: background-color .2s ease-in-out;
@@ -1842,7 +1832,7 @@ input, select, textarea {
 					background-color: #A8CC3C;
 				}
 
-				ul.social li a.fa-twitter {
+				ul.social li a.fa-bluesky {
 					background-color: #2DAAE4;
 				}
 
@@ -1976,6 +1966,8 @@ input, select, textarea {
 			width: auto;
 		}
 
+.fa-brands > .label {display: none;}
+
 /* Icons */
 
 	.icon {
@@ -1984,7 +1976,6 @@ input, select, textarea {
 	}
 
 		.icon:before {
-			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
 			display: inline-block;
 			font-style: normal;
@@ -1992,7 +1983,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: 'Font Awesome 6 Free';
 			font-weight: 400;
 		}
 
@@ -2099,7 +2090,6 @@ input, select, textarea {
 		}
 
 		#nav a {
-			-moz-transition: background-color .2s ease-in-out;
 			-webkit-transition: background-color .2s ease-in-out;
 			-ms-transition: background-color .2s ease-in-out;
 			transition: background-color .2s ease-in-out;
@@ -2203,7 +2193,6 @@ input, select, textarea {
 			}
 
 		#copyright a {
-			-moz-transition: color .2s ease-in-out;
 			-webkit-transition: color .2s ease-in-out;
 			-ms-transition: color .2s ease-in-out;
 			transition: color .2s ease-in-out;
