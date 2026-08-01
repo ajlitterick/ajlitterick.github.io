@@ -2103,6 +2103,12 @@ input, select, textarea {
 			padding: 0 1.25em;
 		}
 
+		/* Consistent size between 'Home' and 'Top' top-bar links across pages */
+		#nav li:first-child a {
+			min-width: 5.75em;
+			text-align: center;
+		}
+
 			#nav a:hover {
 				color: #fff !important;
 				background: #383838;
